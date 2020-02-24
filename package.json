@@ -1,0 +1,44 @@
+{
+  "name": "svg-check",
+  "version": "0.0.1",
+  "description": "Cloud Projects App",
+  "productName": "Simple check",
+  "capacitorId": "",
+  "author": "Andrew L. <mrlogaz@gmail.com>",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "minter-js-sdk": "^0.29.0",
+    "minterjs-tx": "^7.2.2",
+    "minterjs-util": "^0.15.1",
+    "minterjs-wallet": "^4.0.4",
+    "qrcode": "^1.4.4",
+    "quasar": "^1.0.0",
+    "save-svg-as-png": "^1.4.17",
+    "svg.js": "^2.7.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  }
+}
